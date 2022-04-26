@@ -23,12 +23,12 @@ VALUES
     ('HR Manager', 75000, 3);
 
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Caprial', 'Grow', 1),
-    ('Brandon', 'Petty', 2),
-    ('Brennan', 'Plie', 3),
-    ('Smelissa', 'Rank', 4),
-    ('Pluto', 'Desun', 5),
-    ('Taylor', 'Laurent', 5);
+    ('Caprial', 'Grow', 1, 1),
+    ('Brandon', 'Petty', 2, 2),
+    ('Brennan', 'Plie', 3, 1),
+    ('Smelissa', 'Rank', 4, 1),
+    ('Pluto', 'Desun', 5, 1),
+    ('Taylor', 'Laurent', 5, 1);
 
